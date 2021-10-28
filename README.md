@@ -1,2 +1,0 @@
-# Git
-About Git
