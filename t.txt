@@ -1,8 +1,1 @@
-This is v1 line
-fffdsffd
-dsafff
-dsaf
-new new
-old old
-b3 bottom
-b3 bottom2
+final line
