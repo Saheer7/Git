@@ -1,0 +1,74 @@
+Git: (https://www.youtube.com/watch?v=58zsLtwzL60&t=650s) video by ben
+- It is a distributed version control system (everyone has repository on their own machine)
+
+Traditional system problem:
+- budget_estimation_final; budges_estimation_final_2 .. etc might have 50 copies and possible to loose track of latest one
+- multiple ppl working on same file, need usb etc to copy & sync
+
+Version control system:
+- It is a system that records & stores changes to a file or set of files over time
+- there is one central place for code (repository, usually in cloud) i.e true version of code
+- users usually checkout (take full copy or refresh their copy) of files
+- users make changes to said files ( in their working copy)
+- users then submit those changes & upload them to repository
+--- Enables teams to code on same codebase
+--- enables versions(snapshots) of that codebase to backed up & reverted to
+--- enables ownership, see who did what, when and why
+--- enables synchronization, someone else updates file A, someone else can get that update using the 
+    magic of internet, no file transfers!
+--- better that centralised as it is distributed multiple copies are present on each one's machine
+
+download:
+https://git-scm.com/downloads
+
+git vs github: both are not same
+- git is the software, github is an online website that acts as a remote repository
+  for your projects, that uses git as it's version control system, i.e github runs on git
+- alternative to github are bitbucket & get lab
+
+Analogy
+- Working directory (where we code)
+- Staging Area (adding the changes here, like soft saving) using command git add; and to remove changes git rm
+- local git repo ; using command git commit; commit changes [here all the previous commits will also be present]
+- Remote git repo; using command git push; push the changes
+
+- Why staging area? to get far more control, you can make changes in your working directory
+ on maybe 5 files & only take 2 files into staging area for commit i.e full control what we want
+
+
+Branching
+- To change/ do experimentations in isolated place i.e master branch is unaffected
+- lets make copy & split away from current flow of work
+why?
+- features/ bugs/ etc
+- let's bring those changes back to master when thery are done/tested
+
+Merging
+- To merge the branches
+Two types: 
+1) Fast forward merge: 
+-easy and simple [If master did not changes and just copying i.e merging the modified other branch to master]
+2) True merge:
+- sometimes easy and sometimes not [if master and other branch both had changes then use this, it checks line by line and merges both together]
+- Be in current branch in which the merge should have happen
+*Conflicts happen when there is same line with changes/difference in both branches
+[Happens when line starting is same and has difference in the next string, i.e this is first line; this is old line here conflict happens]
+
+Remotes & Pushing
+- Create remote repo anywhere like github, bit bucket etc
+
+Pull & Fetch
+- What changed in the remote repository and pull it
+- Being in the repository, settings-> manage access-> invite collaborator (to give push i.e write access) ideally all have read access
+- git pull first runs ->git fetch, to update remote tracking branches of server repo and then -> git merge remote tracking branch of server to local
+ 
+git clone is how you get a local copy of an existing repository to work on. It's usually only used once for a given repository, unless you want to have multiple working copies of it around. (Or want to get a clean copy after messing up your local one...)
+
+git pull (or git fetch + git merge) is how you update that local copy with new commits from the remote repository. If you are collaborating with others, it is a command that you will run frequently.
+
+As your first example shows, it is possible to emulate git clone with an assortment of other git commands, but it's not really the case that git pull is doing "basically the same thing" as git clone (or vice-versa).
+
+
+
+
+

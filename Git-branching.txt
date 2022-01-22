@@ -1,0 +1,14 @@
+create a folder 'DS-***'
+clone git repository to that location from vs code
+change to dev in vs code
+go to git bash & branch from being in dev
+checkout to created branch
+sync it from vs code (after adding scripts)
+
+
+
+
+----------
+to merge:
+go to git & pull request into Dev and then
+open request & squash & merge 
