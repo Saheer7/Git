@@ -1,0 +1,15 @@
+Git:
+in main settings enable ssh and run git cmds and paste the key
+
+note: pass phrase and other things in git when asked press enter
+
+
+
+$:  ssh-keygen -t rsa -b 4096 -C "saheer.md9@gmail.com"
+
+- above cmd generated ssh file (use .pub file and paste in github ssh section)
+
+
+$: ssh -T git@github.com
+
+- above cmd will use ssh file and connect to git hub
