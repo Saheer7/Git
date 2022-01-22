@@ -13,3 +13,8 @@ $:  ssh-keygen -t rsa -b 4096 -C "saheer.md9@gmail.com"
 $: ssh -T git@github.com
 
 - above cmd will use ssh file and connect to git hub
+
+
+
+-> Download git & enable git in vscode
+instrunctions link : https://www.jcchouinard.com/install-git-in-vscode/
