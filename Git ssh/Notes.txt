@@ -1,4 +1,0 @@
-Git:
-in settings enable ssh andrun git cmds and paste the key
-
-note: pass phrase and other things in git when asked press enter
