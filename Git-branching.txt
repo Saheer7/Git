@@ -12,3 +12,12 @@ sync it from vs code (after adding scripts)
 to merge:
 go to git & pull request into Dev and then
 open request & squash & merge 
+
+-----------
+Rebasing:
+If 2 are working on different feature after cloning and f1 does
+changes on main code and commits back, then f2 having old main code
+and new feature has to rebase code (source control click 3 dots button in vscode) 
+-> branch -> rebase branch and then select the branch commited by f1 
+[there is a possibility of conflicts to araise, f2 developer to resolve and then
+send pull request, f1 developer will be merging it]
