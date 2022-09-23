@@ -1,0 +1,2 @@
+- Git: kex_exchange_identification: read: Connection reset by peer
+[Solution: Network issue i.e try changing network/ check vpn / disconnect vpn or connect to the server location from vpn/ change location of vpn] 
