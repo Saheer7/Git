@@ -21,3 +21,7 @@ instrunctions link : https://www.jcchouinard.com/install-git-in-vscode/
 
 
 -> use git bash in vccode and connect to github using ssh-t cmd and then clone (if not work then in preferences enable git in vc code)
+
+
+for virtual env:
+https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/
