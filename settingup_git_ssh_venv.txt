@@ -25,3 +25,6 @@ instrunctions link : https://www.jcchouinard.com/install-git-in-vscode/
 
 for virtual env:
 https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/
+I.e: being in document folder
+pip install virtualenv 
+virtualenv venv
