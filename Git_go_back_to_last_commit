@@ -1,0 +1,15 @@
+Step 1: 
+git reset --hard add_commit_number
+ex: 
+git reset --hard 0a2e7ea21
+
+Step 2: 
+go to the repo, settings , branches, edit, allow force push(for me)  ; Later remove it
+
+Step 3: 
+git push --force-with-lease origin your_branch_name
+ex:
+git push --force-with-lease origin main_consolidate_hamil
+
+Step 4:
+Remove the allowed force push settings
